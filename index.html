@@ -8,8 +8,8 @@
 
     </head>
     <body>
-        <div>
-            <nav>
+        <div id="container">
+            <nav id="top-nav">
                     <ul>
                         <li>Gmail</li>
                         <li>Images</li>
@@ -19,28 +19,26 @@
                 </nav>
                 <div>
                     <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo"> 
-                    <form action="get" name="search">
+                    <form action="get" name="search" id="search-form">
                         <input type="text" name="search-field"> <br>
-                        <input type="submit" name="search-button" value="Google Search">
-                        <input type="submit" name="feeling-lucky" value="I'm feeling lucky">
+                        <div id="search-buttons">
+                            <input type="submit" name="search-button" value="Google Search">
+                            <input type="submit" name="feeling-lucky" value="I'm feeling lucky">
+                        </div>
                     </form>
                 </div>
                 <footer>
-                    <nav>
-                        <ul>
-                            <li>Advertising</li>
-                            <li>Enterprises</li>
-                            <li>About us</li>
-                        </ul>
-                    </nav>
-                    <nav>
-                        <ul>
-                            <li>Customer information</li>
-                            <li>Confidentiality</li>
-                            <li>Terms & conditions</li>
-                            <li>Settings</li>
-                        </ul>
-                    </nav>
+                    <ul id="footer-left">
+                        <li>Advertising</li>
+                        <li>Enterprises</li>
+                        <li>About us</li>
+                    </ul>
+                    <ul id="footer-right">
+                        <li>Customer information</li>
+                        <li>Confidentiality</li>
+                        <li>Terms & conditions</li>
+                        <li>Settings</li>
+                    </ul>
                 </footer>
         </div>
     </body>
