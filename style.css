@@ -134,11 +134,55 @@ input[type="submit"]:hover {
     color:#6E6E6E;
 }
 
-#footer-left {
-    border: 2px solid black;
+#footer-left li:first-child {
+    margin-left: -20px;
 }
-
 
 #footer-bottom a {
     color: #6E6E6E;
+}
+
+@media (max-width: 500px) {
+    #container {
+        width: 98.5%;
+        height: 99vh;
+    }
+
+    #top-nav li:first-child {
+        opacity: 0;
+    }
+
+    #search-field {
+        width: 70vw;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    #footer-bottom {
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+    }
+
+    #footer-right {
+        order: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+    }
+
+    #footer-right li:first-child {
+        order: 1;
+    }
+
+
+    #footer-left {
+        order: 2;
+        justify-content: center;
+        align-items: center;
+    }
 }
