@@ -37,7 +37,6 @@ li a:hover {
 }
 
 #top-nav {
-    border: 2px solid green;
     height: 30px;
     width: 100%;
     display: flex;
@@ -50,8 +49,8 @@ li a:hover {
 }
 
 #apps-img {
-    padding: 0;
-    display: inline;
+    vertical-align: middle;
+    padding-bottom: 5px;
 }
 
 #sign-in-button {
