@@ -1,11 +1,11 @@
 * {
     font-family: arial, sans-serif;
-    font-size: 14px;
 }
 
 body {
     width: 99.4%;
     height: 98vh;
+    font-size: 1em;
 }
 
 #container {
